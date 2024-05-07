@@ -1,0 +1,153 @@
+body{
+    background-color: black;
+    color: white;
+
+}
+
+.left{
+    width: 25vw;
+    padding: 5px;
+
+}
+
+.right{
+    width: 75vw;
+   
+    border-radius: 3px;
+}
+
+.container{
+    padding: 8px;
+}
+                                    /* Left Section */
+
+                                    /* Home-box  */
+
+.home-box{
+    border-radius: 8px;
+    padding: 8px 16px 8px 4px;
+    height: 15vh;
+}
+
+.logo img {
+    width: 60px;
+    padding: 6px 0;
+}
+
+.home-box ul li img{
+    width: 12px;
+}
+
+.home-box ul li{
+    gap: 12px;
+    padding: 3px 0;
+    list-style: none;
+    width: 18px;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+                                    /* Right Section */
+
+                                    /* Header/Top Section */
+
+.header{
+    background: #222222;
+    border-radius: 5px;
+    padding: 10px;
+    height: 8vh;
+}
+
+.arrows{
+    gap: 3px;
+}
+.arrows img{
+    width: 10px;
+}
+
+.svg {
+    width: 22px;
+    height: 22px;
+    background-color: rgb(15, 15, 15);
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#signUp{
+    margin-right: 10px;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    color: rgb(156, 148, 148);
+    font-size: 12px;
+    font-weight: 600;
+}
+
+#login{
+    background-color: #fff;
+    color: black;
+    padding: 8px 14px;
+    border-radius: 30px;
+    border: none;
+    box-shadow: none;
+}
+
+                                /* Playlist/Album section */
+
+.playlist{
+    padding: 20px;
+}
+
+.playlist h1{
+    font-size: 24px;
+    padding: 16px;
+    font-weight: 800;
+}
+
+.card-container{
+    margin: 30px;
+    display: flex;
+    gap: 10px;
+}
+
+.card{
+    width: 200px;
+    padding: 10px;
+    background-color: #252525;
+    border-radius: 5px;
+    position: relative;
+
+}
+
+.card img{
+    width: 100%;
+}
+
+.play {
+    width: 28px;
+    height: 28px;
+    padding: 4px;
+    background-color: #00FF00; 
+    border-radius: 50%; 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 155px;
+    right: 17px;
+    opacity: 0;
+    transition: all 1s ease-in-out;
+}
+
+.card:hover .play{
+    opacity: 1;
+}
+
+.play img {
+    width: 75%;
+    height: auto;
+    fill: #000000;
+}
